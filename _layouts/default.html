@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"> -->
-    <link rel="stylesheet" href="{{ "/assets/css/skelet.css" | relative_url }}">
-  </head>
-  <body>
-      {{ content }}
-  </body>
+<head>
+  {% include meta.html %}
+</head>
+<body>
+  <div id="app">
+    {% include header.html %}
+    <main>
+      <x-grid columns="1">
+        <div class="logo">{{page.title}}</div>
+      </x-grid>
+      <span class="space1"></span>
+      <x-grid columns="1">
+        <x-col>
+          {{content}}
+        </x-col>
+      </x-grid>
+    </main>
+    <hr>
+    {% include footer.html %}
+  </div>
+</body>
 </html>

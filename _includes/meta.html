@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<title>{{ site.title }}</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+
+<!-- Facebook OG Tags -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+
+<link rel="stylesheet" href="{{ "/assets/css/skelet.css" | relative_url }}">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<style>
+  :root {
+    --fontSize: calc(100vw / 90);
+    --hHeading: 9vw;
+    --sitePadding: 5rem;
+    --margin: 2rem;
+  }
+
+  #app { padding: var(--sitePadding); max-width: 1600px; margin: 0 auto; }
+  .logo { font-size: var(--hHeading); letter-spacing: 0; line-height: 1; font-weight: 800 }
+
+  span[class*="space"] { display: block; width: 100%; margin: var(--spacer, 0.5rem) auto; }
+  .space  { --spacer: 3rem; }
+  .space1 { --spacer: 5vw; }
+  .space2 { --spacer: 10vw; }
+  .space3 { --spacer: 20vw; }
+  .space4 { --spacer: 25vw; }
+  .space5 { --spacer: 30vw; }
+
+  @media (max-width: 600px) {
+    :root {
+      --fontSize: 0.8rem;
+      --hHeading: 3rem;
+      --sitePadding: 2rem;
+    }
+  }
+</style>
