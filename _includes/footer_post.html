@@ -1,0 +1,9 @@
+<footer>
+  <x-grid columns="1">
+    <x-col span=1 js=center><p>
+    {% for tag in site.tags %}
+      #{{ tag[0] }}
+    {% endfor %}
+    </p></x-col>
+  </x-grid>
+</footer>

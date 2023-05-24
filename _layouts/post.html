@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  {% include meta.html %}
+</head>
+<body>
+  <div id="app">
+    {% include header_post.html %}
+    <main>
+      <x-grid columns="1">
+        <div class="logo">{{page.title}}</div>
+      </x-grid>
+      <x-grid columns="1">
+        <x-col>
+          {{content}}
+        </x-col>
+      </x-grid>
+    </main>
+    <hr>
+    {% include footer_post.html %}
+  </div>
+</body>
+</html>
