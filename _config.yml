@@ -2,3 +2,4 @@ url: "https://yazkizim.io" # the base hostname & protocol for your site, e.g. ht
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Yaz Kızım!" # the name of your site, e.g. ACME Corp.
 description: "Ramblings of a computer scientist..."
+textlogo: "¡yaz kızım!"
