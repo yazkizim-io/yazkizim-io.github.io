@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  {% include meta.html %}
+</head>
+<body>
+  <div id="app">
+    {% include header.html %}
+    <main>
+      <span class="space1"></span>
+      <x-grid columns="2" columns-s="1">
+        {% for post in site.posts %}
+        <x-col span=1>
+            <h4>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h4>
+        </x-col>
+        <x-col span=1 as="center" js="end">
+          {{post.date | date_to_string: "ordinal", "US" }}
+        </x-col>
+        <x-col span=1-2 class="excerpt">
+          {{post.excerpt}}
+        </x-col>
+        {% endfor %}
+      </x-grid>
+    </main>
+    <hr class="full">
+    {% include footer.html %}
+  </div>
+</body>
+</html>
