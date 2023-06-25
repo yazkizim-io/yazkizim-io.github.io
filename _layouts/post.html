@@ -7,12 +7,19 @@
   <div id="app">
     {% include header_post.html %}
     <main>
-      <x-grid columns="1">
-        <div class="logo">{{page.title}}</div>
-      </x-grid>
+      <span class="space1"></span>
       <x-grid columns="1">
         <x-col>
+        <h1>{{page.title}}</h1>
+        </x-col>
+        <x-col>
+          On {{page.date | date_to_string: "ordinal", "US" }} | {{page.tags | array_to_sentence_string }}
+        </x-col>
+        <x-col>
           {{content}}
+        </x-col>
+        <x-col>
+          <a href="/posts">< Posts</a>
         </x-col>
       </x-grid>
     </main>
