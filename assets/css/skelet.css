@@ -9,7 +9,7 @@ pre{font-family:monospace,monospace;font-size:1em;display:grid}
 a{background:transparent}
 abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
 b,strong{font-weight:bolder}
-code,kbd,samp{font-family:'JetBrains Mono', monospace,monospace;font-size:1em}
+code,kbd,samp{font-family:'JetBrainsMono', monospace,monospace;font-size:1em}
 small{font-size:80%}
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sub{bottom:-.25em}
