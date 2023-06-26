@@ -7,17 +7,20 @@
   <div id="app">
     {% include header.html %}
     <main>
-      <x-grid columns="1">
-        <div class="logo">{{page.title}}</div>
-      </x-grid>
       <span class="space1"></span>
+        <x-col>
+          <a href="/">< Home</a>
+        </x-col>
+      <x-grid columns="1">
+        <h1>{{page.title}}</h1>
+      </x-grid>
       <x-grid columns="1">
         <x-col>
           {{content}}
         </x-col>
       </x-grid>
     </main>
-    <hr>
+    <hr class=full>
     {% include footer.html %}
   </div>
 </body>
