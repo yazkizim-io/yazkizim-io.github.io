@@ -37,34 +37,29 @@ summary{display:list-item}
   css variables
 ------------------ */
 :root {
-    /* Palette 1: https://coolors.co/palette/F4E8C1-A0C1B9-70A0AF-706993-331E38 */
-    --colors-primary: #331E38;
-    --colors-secondary: #706993;
-    --colors-third: #70A0AF;
-    --colors-fourth: #A0C1B9;
-    --colors-fifth: #F4E8C1;
-    /*  Palette 2: https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557  */
-/*    --colors-primary: #1D3557;
-    --colors-secondary: #457B9D;
-    --colors-third: #A8DADC;
-    --colors-fourth: #F1FAEE;
-    --colors-fifth: #E63946;*/
-    /* Palette 3: https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429 */
-/*    --colors-primary: #D90429;
-    --colors-secondary: #EF233C;
-    --colors-third: #EDF2F4;
-    --colors-fourth: #8D99AE;
-    --colors-fifth: #2B2D42;*/
-    /*  Blue-hues: https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8  */
-/*    --colors-primary: #03045E;
-    --colors-secondary: #023E8A;
-    --colors-third: #0077B6;
-    --colors-fourth: #0096C7;
-    --colors-fifth: #00B4D8;
-    --colors-sixth: #48CAE4;
-    --colors-seventh: #90E0EF;
-    --colors-eigth: #ADE8F4;
-    --colors-nineth: #CAF0F8;*/
+    /* https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529;*/
+    /* From dark to light  */
+    --coolors-grey-hue-9: #212529;
+    --coolors-grey-hue-8: #343A40;
+    --coolors-grey-hue-7: #495057;
+    --coolors-grey-hue-6: #6C757D;
+    --coolors-grey-hue-5: #ADB5BD;
+    --coolors-grey-hue-4: #CED4DA;
+    --coolors-grey-hue-3: #DEE2E6;
+    --coolors-grey-hue-2: #E9ECEF;
+    --coolors-grey-hue-1: #F8F9FA;
+
+    /* https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8 */
+    /* From dark to light  */
+    --coolors-blue-hue-9: #03045E;
+    --coolors-blue-hue-8: #023E8A;
+    --coolors-blue-hue-7: #0077B6;
+    --coolors-blue-hue-6: #0096C7;
+    --coolors-blue-hue-5: #00B4D8;
+    --coolors-blue-hue-4: #48CAE4;
+    --coolors-blue-hue-3: #90E0EF;
+    --coolors-blue-hue-2: #ADE8F4;
+    --coolors-blue-hue-1: #CAF0F8;
 
 /** Colors */
     --primary: #409cff;
