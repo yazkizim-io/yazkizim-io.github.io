@@ -62,7 +62,7 @@ summary{display:list-item}
     --coolors-blue-hue-1: #CAF0F8;
 
 /** Colors */
-    --primary: #409cff;
+    --primary: var(--coolors-blue-hue-6);
     --red: #ff6961;
     --orange: #FFB340;
     --yellow: #FFD426;
@@ -75,12 +75,12 @@ summary{display:list-item}
     --dark: #181818;
     --shadow: rgba(10, 10, 10, 0.1);
 
-    --linkColor: var(--primary);
+    --linkColor: var(--coolors-grey-hue-7);
     --linkHover: #2997ff;
 
-    --bgColor: #FFF;
-    --color: #000;
-    --colorInverse: #FFF;
+    --bgColor: var(--coolors-grey-hue-1);
+    --color: var(--coolors-grey-hue-9);
+    --colorInverse: var(--coolors-grey-hue-3);
     --hColor: var(--color);
 
     --selectionBg: rgba(0,0,0,.95);
@@ -289,7 +289,7 @@ h6,.h6 { --hSize: var(--h6Size); --hLine: var(--h6Line) }
 p {margin:var(--pMargin)}
 blockquote { max-width: 90%; margin: 2rem auto; font-style: italic }
 
-a:not(.button) { color:var(--linkColor); cursor:pointer }
+a:not(.button) { color:var(--linkColor); cursor:pointer; font-weight: bold; text-decoration: none;}
 a:not(.button):hover { color:var(--linkHover) }
 a.no-style { text-decoration:none }
 

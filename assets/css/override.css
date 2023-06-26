@@ -1,3 +1,7 @@
 .excerpt p {
   margin-top: 0px;
 }
+.metadata{
+  font-weight: bold;
+  color: var(--coolors-grey-hue-5);
+}

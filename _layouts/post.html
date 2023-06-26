@@ -13,14 +13,15 @@
           <a href="/posts">< Posts</a>
         </x-col>
         <x-col>
-        <h1>{{page.title}}</h1>
+        <h1 style="margin-bottom:-10px">{{page.title}}</h1>
         </x-col>
-        <x-col>
+        <x-col class="metadata">
           On {{page.date | date_to_string: "ordinal", "US" }} | {{page.tags | array_to_sentence_string }}
         </x-col>
         <x-col>
           {{content}}
         </x-col>
+      <span class="space"></span>
         <x-col>
           <a href="/posts">< Posts</a>
         </x-col>
