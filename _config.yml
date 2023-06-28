@@ -3,3 +3,5 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Yaz Kızım!" # the name of your site, e.g. ACME Corp.
 description: "Ramblings of a computer scientist..."
 textlogo: "¡yaz kızım!"
+exclude:
+  - Makefile
