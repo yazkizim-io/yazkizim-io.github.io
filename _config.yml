@@ -1,4 +1,4 @@
-url: "https://yazkizim.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.yazkizim.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Yaz Kızım!" # the name of your site, e.g. ACME Corp.
 description: "Ramblings of a computer scientist..."
