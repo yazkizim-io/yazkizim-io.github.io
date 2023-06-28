@@ -13,8 +13,7 @@
         --globalBg: #eee;
     }
 
-    #app { margin: 0 auto 10rem; max-width: 1600px; }
-    #intro { margin: 0 0; height: 100vh; }
+    #intro { height: 100vh; }
     #ads { padding-bottom:4rem; }
     .frame {
         min-height: 350px;
