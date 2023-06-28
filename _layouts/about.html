@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  {% include meta.html %}
-</head>
-<body>
-  <div id="app">
-    {% include header.html %}
-    <main>
-      <span class="space1"></span>
-        <x-col>
-          <a href="/">⇤ Home</a>
+  <head>
+    {% include meta.html %}
+  </head>
+  <body>
+    <div id="app">
+      <header id=intro class=center-axyz>
+        <x-grid columns="2" columns-m="1">
+        <x-col span="1">
+        <a href="/about.html"><img src="/assets/img/profile.png" loading="lazy" style="max-width:140px"/></a>
         </x-col>
-      <x-grid columns="1">
-        <h1>{{page.title}}</h1>
-      </x-grid>
-      <x-grid columns="1">
-        <x-col>
-          {{content}}
+        <x-col span="1" as=center js=end>
+        <h3>{{ site.textlogo }}</h3>
         </x-col>
-      </x-grid>
-    </main>
-    <hr class=full>
-    {% include footer.html %}
-  </div>
-</body>
+        <x-col span=2><span class="space1"/></x-col>
+        <x-col span=2 js=start><h2 style="color: var(--coolors-grey-hue-3);">About Me</h2></x-col>
+        <x-col span=2>{{content}}</x-col>
+        <x-col span=1><a href="/">⇤ Home</a></x-col>
+        </x-grid>
+      </header>
+    </div>
+  </body>
 </html>
